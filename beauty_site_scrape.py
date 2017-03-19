@@ -56,8 +56,9 @@ if __name__ == '__main__':
     print(ulta_scrape())
 
 # Future Plans
-# - parse out product title and image from BeautifulSoup content in page_contents
 # DONE - obtain just one page via randomly selecting options rather than indexing all possible items
+# - parse out product titles and images from BeautifulSoup content in page_contents
+# - select one product to enchant and post
 # - add sephora scrape
 # - cloudability image manilpuation via api
 # - deep dream image manipulation via api
