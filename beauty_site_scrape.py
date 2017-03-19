@@ -50,10 +50,14 @@ def ulta_scrape():
     return page_contents
 
 
-#def ulta_soup():
+def ulta_soup(soup):
+    # need to obtain the 'src' and 'alt' attributes from div class "quick-view-prod", a class "product", img
+    pass
 
 if __name__ == '__main__':
-    print(ulta_scrape())
+    scrape = ulta_scrape()
+    print(scrape)
+    print(ulta_soup(scrape))
 
 # Future Plans
 # DONE - obtain just one page via randomly selecting options rather than indexing all possible items
